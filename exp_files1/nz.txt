@@ -1,0 +1,2 @@
+#lat1 long1 lat2 long2 resolution width interval
+-47.072226 164.397986 -35.342289 177.204978 3000 500000 100000
