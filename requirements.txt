@@ -1,0 +1,6 @@
+numpy
+rasterio
+reverse_geocoder
+plotly
+geographiclib
+pandas
