@@ -49,17 +49,17 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
                    default excludes showing rings on a globe
 
 # Showing Rings on a Globe
-    -g          : show globe containing rings in specified file
-    -w          : show perpendicular width hashes on globe rings
+    -g           : show globe containing rings in specified file
+    -w           : show perpendicular width hashes on globe rings
 
 # Special commands
     -l length    : calculate for a line of specified length, not a ring,
      				 only works with -f
-    -L 		     : calculate for a line, only works with -F
+    -L           : calculate for a line, only works with -F
 
-    -p 		     : calculate the population of the specified rings or lines
+    -p           : calculate the population of the specified rings or lines
     -s out.txt   : save results of a simulation, will prompt to save
-     			   if calculation time is longer than 10 minutes
+                   if calculation time is longer than 10 minutes
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
