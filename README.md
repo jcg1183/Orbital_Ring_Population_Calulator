@@ -6,6 +6,8 @@ An orbital ring is a space mega-structure similar to a space elevator.  Orbital 
 
 This program can display a specified ring on a globe, calculate the population under a ring, and calculate all possible rings to determine which ring would maximize the population under it.
 
+The program was tuned to maximize parallel computation and the resolution of the population raster was tested to calculate the most accurate population in the least amount of time.
+
 ## Installation
 
 This program uses [GeographicLib](https://geographiclib.sourceforge.io/html/install.html) which has several install options.
