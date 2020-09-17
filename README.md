@@ -12,7 +12,7 @@ The program was tuned to maximize parallel computation and the resolution of the
 
 The 'width' of the ring is the effective reach of the cables.  Instead of dropping straight down, a cable can be dropped at an angle.  The width is measured from the center of the ring to one edge and can be specified in the ring_file.  The image above shows a ring with the width of 100km indicated by the orange hash marks.
 
-The results of an experiment to calculate the populations under all possible rings with a 100km width are included in the /results/ folder.
+The results of an experiment to calculate the populations under all possible rings with a 100km width are included in the /results/ folder.  [Click here for all results.]()
 
 ## Installation
 
@@ -75,5 +75,3 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
 
 ![North America](/images/south_america.png)
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
