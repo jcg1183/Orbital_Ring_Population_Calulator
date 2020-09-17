@@ -75,3 +75,4 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
 
 ![North America](/images/south_america.png)
 
+[License](https://github.com/jcg1183/Orbital_Ring_Population_Calulator/blob/master/LICENSE)
