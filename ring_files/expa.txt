@@ -1,4 +1,0 @@
-#lat long azim raster resolution width interval
-0 0 90 4500 100000 5000
-0 0 80 4500 100000 5000
-
