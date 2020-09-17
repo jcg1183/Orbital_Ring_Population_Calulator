@@ -1,7 +1,6 @@
 # Orbital Ring Population Calculator
 
 ![North America](/images/north_america.png)
-Format: ![Alt Text](url)
 
 An orbital ring is a space mega-structure similar to a space elevator.  Orbital rings are active support structures where a metal 'ring' is spinning around the earth at orbital speeds while platforms are magnetically supported above the ring and are not in orbit, they are stationary to the ground.  Cables can be dropped to the ground for moving people and goods up into low orbit.  [See the video that inspired this project.](https://www.youtube.com/watch?v=LMbI6sk-62E)
 
