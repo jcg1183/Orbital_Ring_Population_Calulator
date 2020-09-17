@@ -40,8 +40,7 @@ Below is a ring_file that specifies a ring from two points and calculates the po
 python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
 ```
 
-## More Program Commands
-# Specifying Rings in a File
+# More Program Commands
     -f file.txt  : calculate rings with start lat/lon and azim
     -F file.txt  : calculate rings with start lat/lon and end lat/lon
     -c file.txt  : calculate rings with a city's lat/lon **
@@ -50,12 +49,12 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
      			   90 to -90 by -1 degree increments, default excludes
      			   showing rings on a globe
 
-    # Showing Rings on a Globe
-    # User must specify rings in a file to show on globe
+# Showing Rings on a Globe
+    User must specify rings in a file to show on globe
     -g           : show globe containing rings in specified file
     -w 		     : show perpendicular width hashes on globe rings
 
-    # Special commands
+# Special commands
     -l length    : calculate for a line of specified length, not a ring,
      				 only works with -f
     -L 		     : calculate for a line, only works with -F
