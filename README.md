@@ -8,6 +8,8 @@ This program can display a specified ring on a globe, calculate the population u
 
 The program was tuned to maximize parallel computation and the resolution of the population raster was tested to calculate the most accurate population in the least amount of time.
 
+![North America](/images/middle_east_width.png)
+
 The results of an experiment to calculate the populations under all possible rings with a 100km span are included in the /results/ folder.
 
 ## Installation
@@ -15,6 +17,8 @@ The results of an experiment to calculate the populations under all possible rin
 This program uses [GeographicLib](https://geographiclib.sourceforge.io/html/install.html) which has several install options.
 
 This installation works on macOS Catalina 10.15.6 and a conda enviornment.
+
+Plotly requires an active internet connection to display a globe.
 
 ```bash
 brew install geographiclib
@@ -46,7 +50,6 @@ Below is a ring_file that specifies a ring from two points and calculates the po
 ```bash
 python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
 ```
-![North America](/images/middle_east_width.png)
 
 # More Program Commands
     -f file.txt  : calculate rings with start lat/lon and azim
