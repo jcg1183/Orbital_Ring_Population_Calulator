@@ -44,15 +44,12 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
     -f file.txt  : calculate rings with start lat/lon and azim
     -F file.txt  : calculate rings with start lat/lon and end lat/lon
     -c file.txt  : calculate rings with a city's lat/lon **
-    default 	 : if no file is specified, the default will calculate
-     			   longitudes 0-179 by 1 degree increments, with azimuths
-     			   90 to -90 by -1 degree increments, default excludes
+    default      : if no file is specified, the default will calculate longitudes 0-179 by 1 degree increments, with azimuths 90 to -90 by -1 degree increments default excludes
      			   showing rings on a globe
 
 # Showing Rings on a Globe
-    User must specify rings in a file to show on globe
-    -g           : show globe containing rings in specified file
-    -w 		     : show perpendicular width hashes on globe rings
+    -g          : show globe containing rings in specified file
+    -w          : show perpendicular width hashes on globe rings
 
 # Special commands
     -l length    : calculate for a line of specified length, not a ring,
