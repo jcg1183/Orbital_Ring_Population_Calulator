@@ -8,6 +8,8 @@ This program can display a specified ring on a globe, calculate the population u
 
 The program was tuned to maximize parallel computation and the resolution of the population raster was tested to calculate the most accurate population in the least amount of time.
 
+The results of an experiment to calculate the populations under all possible rings with a 100km span are included in the /results/ folder.
+
 ## Installation
 
 This program uses [GeographicLib](https://geographiclib.sourceforge.io/html/install.html) which has several install options.
