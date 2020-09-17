@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 ![North America](/images/world_top.png)
 
-# Usage
+## Usage
 
 orbital_ring.py can run two types of files:
 * -f : latitude, longitude, azimuth files, starts on equator to specify ring
@@ -53,7 +53,7 @@ Below is a ring_file that specifies a ring from two points and calculates the po
 python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
 ```
 
-# More Program Commands
+## Program Commands
     -f file.txt  : calculate rings with start lat/lon and azim
     -F file.txt  : calculate rings with start lat/lon and end lat/lon
     -c file.txt  : calculate rings with a city's lat/lon **
@@ -61,11 +61,11 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
                    by 1 degree increments, with azimuths 90 to -90 by -1 degree increments 
                    default excludes showing rings on a globe
 
-# Showing Rings on a Globe
+## Showing Rings on a Globe
     -g           : show globe containing rings in specified file
     -w           : show perpendicular width hashes on globe rings
 
-# Special commands
+## Special commands
     -l length    : calculate for a line of specified length, not a ring, only works with -f
     -L           : calculate for a line, only works with -F
 
