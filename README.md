@@ -53,8 +53,7 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
     -w           : show perpendicular width hashes on globe rings
 
 # Special commands
-    -l length    : calculate for a line of specified length, not a ring,
-     				 only works with -f
+    -l length    : calculate for a line of specified length, not a ring, only works with -f
     -L           : calculate for a line, only works with -F
 
     -p           : calculate the population of the specified rings or lines
