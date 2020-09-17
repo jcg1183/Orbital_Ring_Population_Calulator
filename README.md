@@ -34,7 +34,7 @@ orbital_ring.py can run two types of files:
 * -f : latitude, longitude, azimuth files, starts on equator to specify ring
 * -F : lat1, lon1, lat2, lon2 files, specify ring from two points
 
-Below are quickstart examples make with ring_files created by the author.
+Below are quickstart examples make with ring_files created by the author.  These will display the specified rings on a globe.
 
 ```bash
 python3 orbital_ring.py -f ./ring_files/usa_top_1.txt -g
