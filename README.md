@@ -70,7 +70,7 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
     -L           : calculate for a line, only works with -F
 
     -p           : calculate the population of the specified rings or lines
-    -s out.txt   : save results of a simulation, will prompt to save
+    -s out.csv   : save results of a simulation, will prompt to save
                    if calculation time is longer than 10 minutes
 
 ![North America](/images/south_america.png)
