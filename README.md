@@ -16,6 +16,7 @@ This installation works on macOS Catalina 10.15.6 and a conda enviornment.
 brew install geographiclib
 pip install -r requirements.txt
 ```
+![North America](/images/world_top.png)
 
 ## Usage
 
@@ -41,6 +42,7 @@ Below is a ring_file that specifies a ring from two points and calculates the po
 ```bash
 python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
 ```
+![North America](/images/middle_east_width.png)
 
 # More Program Commands
     -f file.txt  : calculate rings with start lat/lon and azim
@@ -61,6 +63,8 @@ python3 orbital_ring.py -F ./ring_files/new_zealand_line.txt -g -L -p
     -p           : calculate the population of the specified rings or lines
     -s out.txt   : save results of a simulation, will prompt to save
                    if calculation time is longer than 10 minutes
+
+![North America](/images/south_america.png)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
