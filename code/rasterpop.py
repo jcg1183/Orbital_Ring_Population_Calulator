@@ -14,7 +14,7 @@ def calculate_shadow(ring):
     population = 0
 
     # Open and prepare population raster
-    raster = rasterio.open("../pop_data/2020pop2.5min.tif")
+    raster = rasterio.open("./data/2020pop2.5min.tif")
     band1 = raster.read(1)
 
     # remove negative values from population raster
@@ -81,4 +81,3 @@ def calculate_shadow(ring):
     end_time = time.time()
 
     ring.population_calculation_time = end_time - start_time
-
