@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 ![North America](/images/world_top.png)
 
-## Usage
+# Usage
 
 orbital_ring.py can run two types of files:
 * -f : latitude, longitude, azimuth files, starts on equator to specify ring
